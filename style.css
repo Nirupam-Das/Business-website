@@ -1,0 +1,107 @@
+body{
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdf3ee;
+    color: black;
+}
+header{
+    background-color: #005f73;
+    color: white;
+    padding: 15px 0;
+}
+header h1{
+    margin-left: 25px;
+}
+header ul{
+    list-style: none;
+    display: flex;
+}
+.header{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header ul li{
+    margin-right: 20px;
+}
+header ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+#first{
+    background-image: url("office.jpg");
+    background-size: cover;
+    height: 400px;
+    background-position: center;
+    display: flex;
+    justify-content: center;/* horizontall */
+    align-items: center;/* vertically*/
+    text-align: center;
+    color: white;
+}
+.hero{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+.touch{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    background-color: orangered;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+#second{
+    padding: 20px;
+}
+#second h2{
+    color: #008DDA;
+    margin-bottom: 15px;
+}
+#second ul{
+    list-style: circle;
+    margin-left: 20px;
+}
+#second li{
+    margin-bottom: 10px;
+}
+#third{
+    background-color: #edfde2;
+    padding: 20px;
+}
+#third h2{
+    color: rgb(13, 200, 13);
+    margin-bottom: 15px;
+}
+#fouth{
+    padding: 20px;
+}
+#fouth h2{
+    color: rgb(245, 74, 74);
+    margin-bottom: 15px;
+}
+#fouth p{
+    margin-bottom: 10px;
+}
+footer{
+    background-color: #005f73;
+    color: white;
+    text-align: center;
+    padding: 10px 0;   
+}
+@media (max-width: 768px) {
+    #second, #third, #fouth {
+        text-align: center;
+    }
+
+    #second ul {
+        list-style-type: none;
+        padding: 0;
+    }
+}
+
